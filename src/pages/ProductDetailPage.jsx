@@ -10,6 +10,7 @@ import ImageCarousel from '../components/ImageCarousel'
 import ProductDetail from '../components/ProductDetail'
 import ProductCarousel from '../components/ProductCarousel'
 import ShimmerDetailPage from './ShimmerDetailPage';
+import { Footer } from '../components/Footer';
 
 const productImages = [
   "/gold-plated-pearls-necklace.jpg",
@@ -219,6 +220,7 @@ const ProductDetailPage = () => {
         onWishlistToggle={handleWishlistToggle}
         isLoggedIn={isSignedIn}
       />
+      <Footer />
     </div>
   );
   }
